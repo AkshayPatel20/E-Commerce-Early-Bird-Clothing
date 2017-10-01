@@ -1,0 +1,255 @@
+@media screen and (max-width: 400px) {
+
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .slide1bg
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        height: 300px;
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top center;
+        background-size: 100% 300px;
+        z-index: 3;
+    }
+
+  .jingle
+  {
+        position:absolute;
+        top:90%;
+        left:15%;
+        text-shadow: -1px -1px #aa3030;
+        font-size: 17px;
+        color:white;
+  }
+
+  .back-bird
+  {
+    visibility: hidden;
+  }
+
+  figure
+  {
+      position: relative;
+
+      overflow: hidden;
+
+      margin-bottom: 20px;
+  }
+
+  figure img
+  {
+      display: block;
+
+      height: 220px;
+      padding: 4px;
+      width: 100%;
+
+      cursor: pointer;
+      transform: scale(1);
+
+      border: #ddd;
+  }
+
+  figcaption
+  {
+      font-size: 16px;
+
+      position: absolute;
+      bottom: 75px;
+      left: -190%;
+      width: 100%;
+      padding: 2px 8px;
+      opacity: 0.8;
+      transition: all .3s ease-in-out;
+      height: 55px;
+      color: white;
+      background: #F2552C;
+      text-align: center;
+      line-height: 2.5;
+      text-shadow: -1px -1px #aa3030;
+      font-weight: bolder;
+  }
+
+  .figcaption1
+  {
+      font-size: 12px;
+      width: 170px;
+      position: absolute;
+      bottom: 95px;
+      opacity: 0.8;
+      left: -130%;
+      height: 35px;
+      padding: 2px 8px;
+
+      transition: all .3s ease-in-out;
+
+      color: white;
+      background: #F2552C;
+      text-align: center;
+      line-height: 2.5;
+      text-shadow: -1px -1px #aa3030;
+      font-weight: bolder;
+  }
+
+  .slide5bg
+  {
+      position: relative;
+      left: 0px;
+      width: 320px;
+      height: 350px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: top center;
+      background-size: 320px 800px;
+      border-radius: 100%;
+  }
+
+  #content_area
+  {
+    width: 340px;
+    background-color: #F8F8F8;
+    float:right;
+    margin-right: 12px;
+    border-color: #E7E7E7;
+  }
+
+  #products_box{
+  width: 990px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+
+  #single_product{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  }
+
+  .heading1{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  #carousel-example-generic{
+    height:auto;
+    width:340px;
+    margin-left:-30px;
+    margin-top:-15px;
+  }
+
+
+  .box_cart
+  {
+    border: 1px solid red;
+    text-align: left;
+    width: 100%;
+
+  }
+
+  .w_cart
+  {
+    height:140px;
+    width:310px;
+    margin-bottom:15px;
+    padding-top:8px;
+    padding-bottom:5px;
+    background-color:white;
+    margin-left: 0px;
+  }
+
+  .wt_cart
+  {
+    text-align: left;
+  }
+
+  .top_cart
+  {
+    margin-left: 0px;
+  }
+
+  .paypal_button
+  {
+    position:absolute;
+    top:272px;
+    left:180px;
+  }
+
+  .paypal_button_size
+  {
+    height:30px;
+    width:150px;
+  }
+
+  .bguser
+  {
+      position: relative;
+      height: 300px;
+      width: 100%;
+      margin-bottom: 8px;
+      overflow: visible;
+      margin-top: -25px;
+  }
+
+
+
+  .backwindowmob
+  {
+      position: absolute;
+
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      width: 343px;
+      height: 300px;
+      margin-top: 117px;
+
+      margin-right: 40px;
+      margin-left: 10px;
+
+      background-color: rgba(244, 67, 54, 0.1);
+  }
+
+  .mod_box
+  {
+    width: 320px;
+    height:280px;
+    z-index: 400 !important;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: -300px;
+    margin-left: 10px;
+  }
+
+  .developer_link
+  {
+    height:30px;
+    width:30px;
+    margin-top:5px;
+    margin-left:2px;
+  }
+
+  div.polaroid1 {
+    width: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 187px;
+    float: right;
+    position: absolute;
+    margin-top: -212px;
+    margin-left: 225px;
+  }
+
+
+
+
+}
